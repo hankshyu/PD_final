@@ -12,7 +12,7 @@
 #include "doughnutPolygon.h"
 #include "doughnutPolygonSet.h"
 
-#include "glpk.h"
+// #include "glpk.h"
 
 Rectilinear *Floorplan::placeRectilinear(std::string name, rectilinearType type, Rectangle placement, area_t legalArea, double aspectRatioMin, double aspectRatioMax, double mUtilizationMin){
     // if(!rec::isContained(mChipContour,placement)){
